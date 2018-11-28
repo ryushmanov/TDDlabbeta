@@ -140,7 +140,7 @@ namespace TDDlabbeta
                         if (!loginpass[i, 1].Equals(password))
                         {
                             passerr.Visible = true;
-                            toolTip.SetToolTip(passerr, "Введен неверный пароль");
+                            toolTip.SetToolTip(passerr, "Введен неправильный пароль");
                             break;
                         }
                         else
@@ -153,7 +153,7 @@ namespace TDDlabbeta
                 if (loginxst == false)
                 {
                     loginerr.Visible = true;
-                    toolTip.SetToolTip(loginerr, "Введен неверный логин");
+                    toolTip.SetToolTip(loginerr, "Введен неправильный логин");
                 }
             }
             return index;
